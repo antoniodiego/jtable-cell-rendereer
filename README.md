@@ -9,3 +9,5 @@ A interface gráfica foi feita usando o Matisse do NetBeans
 Usando um JPanel com o layout padrão e adicionando um rótulo nele não funciona muito bem porque
 aparecem margens. O layout padrão é o FlowLayout que por padrão tem 5 pixes de gap vertical e 5 pixes de gap horizontal
 
+Foi aumentada a altura das linhas da tabela, assim como foi adicionado espaçamento entre linhas
+
