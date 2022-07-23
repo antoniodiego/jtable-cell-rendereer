@@ -1,4 +1,4 @@
-package br.com.antoniodiego.jtable-cell-renderer;
+package br.com.antoniodiego.jtablecellrenderer;
 
 import org.junit.jupiter.api.Test;
 
