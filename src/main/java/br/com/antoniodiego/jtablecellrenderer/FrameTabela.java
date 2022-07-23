@@ -19,6 +19,8 @@ public class FrameTabela extends javax.swing.JFrame {
      */
     public FrameTabela() {
         initComponents();
+        
+        
     }
 
     /**
@@ -57,6 +59,9 @@ public class FrameTabela extends javax.swing.JFrame {
                 return types [columnIndex];
             }
         });
+        tabelaTeste.setFillsViewportHeight(true);
+        tabelaTeste.setRowHeight(30);
+        tabelaTeste.setRowMargin(5);
         jScrollPane1.setViewportView(tabelaTeste);
         if (tabelaTeste.getColumnModel().getColumnCount() > 0) {
             tabelaTeste.getColumnModel().getColumn(1).setCellRenderer(new CellRendererRotulos());
